@@ -1,0 +1,22 @@
+
+.block-library-half-media__resizer {
+	grid-area: half-media-media;
+	align-self: center;
+}
+
+.wp-block-half-media .editor-inner-blocks {
+	word-break: break-word;
+	grid-area: half-media-content;
+}
+
+.block-library-half-media__resize-handler {
+	display: block;
+	border: 2px solid $white;
+	position: absolute;
+	background: theme(primary);
+}
+
+
+.wp-block-half-media > .editor-inner-blocks > .editor-block-list__layout > .editor-block-list__block {
+	max-width: unset;
+}
