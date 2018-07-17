@@ -19,10 +19,4 @@ describe( 'BlockView', () => {
 	test( 'should match snapshot', () => {
 		expect( wrapper ).toMatchSnapshot();
 	} );
-
-	test( 'should call onAction when button is pressed', () => {
-		wrapper.find( 'Button' ).simulate( 'click' );
-
-		expect( onAction ).toHaveBeenCalledTimes( 1 );
-	} );
 } );

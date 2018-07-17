@@ -22,12 +22,13 @@ exports[`BlockView should match snapshot 1`] = `
   <div
     className="editor-block-compare__action"
   >
-    <Button
+    <[object Object]
       isLarge={true}
       onClick={[MockFunction]}
+      tabindex="0"
     >
       action
-    </Button>
+    </[object Object]>
   </div>
 </div>
 `;
